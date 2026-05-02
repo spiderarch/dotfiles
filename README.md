@@ -3,10 +3,8 @@ my dotfiles of nvim kitty &amp; zsh
 i use vim.plug and oh my zsh 
 zsh config
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-# Path to your Oh My Zsh installation.
+
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="muse"
 
@@ -21,7 +19,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Pronmpt configuration
+
 
 function dir_icon {
 	if [[ "$PWD" == "$HOME" ]]; then
